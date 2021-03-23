@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toan1"
+    android:orientation="vertical"
+    tools:context=".Tinh.level1">
+
+    <Button
+        android:id="@+id/btn_back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_reply_black_24dp" />
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:id="@+id/tv_score"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_cauhoi"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text=""
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/dapan_a"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            android:text=""
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_width="120dp"
+            android:layout_height="70dp"/>
+
+        <Button
+            android:id="@+id/dapan_b"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            android:text=""
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"
+            android:layout_width="120dp"
+            android:layout_height="70dp"  />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/dapan_c"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            android:text=""
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_width="120dp"
+            android:layout_height="70dp"  />
+
+        <Button
+            android:id="@+id/dapan_d"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            android:text=""
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"
+            android:layout_width="120dp"
+            android:layout_height="70dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

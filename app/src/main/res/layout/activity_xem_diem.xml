@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toan1"
+    android:orientation="vertical"
+    tools:context=".Xem_diem">
+
+
+    <Button
+        android:id="@+id/btn_back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_reply_black_24dp" />
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="250dp"
+     android:orientation="vertical"
+     android:background="@drawable/button"
+     android:layout_marginTop="150dp"
+     android:padding="10dp">
+
+     <TextView
+         android:id="@+id/txt_diemthi"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:textColor="#d500f9"
+         android:text="abc"
+         android:textSize="40dp" />
+
+     <TextView
+         android:id="@+id/txt_diemcao"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="70dp"
+         android:textColor="#fff"
+         android:text=""
+         android:textSize="40dp" />
+ </LinearLayout>
+
+
+</LinearLayout>
